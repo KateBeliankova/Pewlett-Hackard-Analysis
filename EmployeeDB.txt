@@ -21,7 +21,7 @@ to_date date
 
 dept_emp
 -
-emp_no int pk
+emp_no int
 dept_no varchar
 from_date date
 to_date date
