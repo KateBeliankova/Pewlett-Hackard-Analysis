@@ -40,7 +40,7 @@ SELECT ei.emp_no,
 	ON (ei.emp_no = ti.emp_no)
 	;
 The Example of the output:
-![](Output/out1.png)
+![](Output/Out1.png)
 
 ## Only the Most Recent Titles
 
@@ -57,7 +57,7 @@ SELECT emp_no,first_name, last_name, title, from_date, salary
 	   WHERE rn = 1;
 
 The Example of the output:
-![](Output/out2.png)
+![](Output/Out2.png)
 
 To get a breakout of number of people who might be retired soon by department, was used the following SQL query:
 
@@ -68,7 +68,7 @@ select title, count(emp_no)
 	order by count(emp_no) desc;
 
 The Example of the output:
-![](Output/out3.png)
+![](Output/Out3.png)
 
 ## Who’s ready for a mentor?
 
@@ -100,7 +100,7 @@ SELECT cep.emp_no,
 
 
 The Example of the output:
-![](Output/out4.png)
+![](Output/Out4.png)
 
 ## Summary:
 Conducted Analysis has showed that soon might be retired 33118 employees, mostly they have Senior Engineer and Senior Staff roles. HR department should decide how to fill that positions (are new people should be hired for that roles or should be filled with promoted current employees).
